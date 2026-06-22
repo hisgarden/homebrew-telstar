@@ -10,8 +10,8 @@
 # Because the DMG is Developer-ID-signed + notarized, no `--no-quarantine`.
 
 cask "telstar" do
-  version "0.6.1"
-  sha256 "9519d826c127271352ac7b08670aa5f99194e9881be4204574812dfb3e95625e"
+  version "0.6.2"
+  sha256 "2f3b2b3b496e3f37e2380629215cba969accd12664bdd69635920346eb52724f"
 
   url "https://github.com/hisgarden/telstar/releases/download/v#{version}/Telstar_#{version}_universal.dmg",
       verified: "github.com/hisgarden/telstar/"
